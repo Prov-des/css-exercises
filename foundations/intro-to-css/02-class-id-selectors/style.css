@@ -1,1 +1,19 @@
 /* Add CSS Styling */
+.alert-text {
+    background-color: #ffb6c1;
+    font-family: dejavu-sans, verdana, sans-serif;
+}
+
+#title {
+    color: #0000ff;
+    font-size: 36px;
+}
+
+.adjust-font-size {
+    font-size: 24px;
+}
+
+#body {
+    background-color: lightgreen;
+    font-weight: 700;
+}

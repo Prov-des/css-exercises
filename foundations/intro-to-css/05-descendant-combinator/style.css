@@ -1,1 +1,16 @@
 /* Add CSS Styling */
+div p {
+    background-color: yellow;
+    color: red;
+    font-size: 20;
+    text-align: center;
+}
+
+/* You can also use this instead of the div selector
+.container .text {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+*/
