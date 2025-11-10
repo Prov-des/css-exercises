@@ -48,7 +48,6 @@ body {
 .card-section {
   display: flex;
   flex-wrap: wrap;
-  min-height: 100vh;
   gap: 26px;
   margin: 48px;
 }
@@ -62,10 +61,12 @@ ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
+  gap: 0;
 }
 
 li {
   margin: 0 0 1em 0;
+  font-size: 24px;
 }
 
 a {
@@ -74,10 +75,7 @@ a {
 }
 
 .card {
-  width: 200px;
-  min-width: 200px;
-  height: 200px;
-  max-height: 200px;
+  width: 300px;
   padding: 16px;
 }
 
