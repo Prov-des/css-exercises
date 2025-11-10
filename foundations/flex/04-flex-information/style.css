@@ -24,3 +24,23 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* This is my solution*/
+
+body {
+  text-align: center;
+}
+.title {
+ margin: 0 0 32px 0;
+}
+.plants {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.plant-1, .plant-2, .plant-3, .plant-4 {
+  max-width: 200px;
+}
+
+
